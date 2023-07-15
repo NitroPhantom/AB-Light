@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AB Light - Big Dream</title>
+    <link rel="stylesheet" href="./css/Stylee.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container" id="container">
+
+        <div class="navbar">
+            <h3> <span class="First_name_brand">Big</span><span class="Last_name_brand">Dream</span></h3>   
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Khác</a></li>
+                </ul> 
+            </nav>
+
+            <nav class="h-icon">
+                <ul>
+                    <li><i class="bx bx-shopping-bag"></i></li>
+                    <li><i class="bx bx-phone"></i></li>
+                    <li><i class="bx bx-heart"></i></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>AB Light</h2>
+                <p>Sự lựa chọn hoàn hảo cho góc học tập, làm việc của bạn</p>
+                <h4>1.000.000 VND <i class="fa-solid fa-arrow-right"></i> 2.000.000 VND </h4> 
+                <img src="./img/" alt="">
+                <button type="button" class="btn" id="btn" onclick="openPopup()"><span>Mua ngay </span><i class="bx bx bx-shopping-bag"></i></button>
+            </div>
+            <div class="col-2">
+                <img src="./img/main.jpg" class="AB_light">
+                <div class="color-box"></div>
+            </div>
+        </div>
+
+        <div class="Infomation">
+            <h2>Mô tả sản phẩm</h2>
+            <div class="Content_01">
+                <p>
+                    Thành phần cấu tạo: Sản phẩm có 3 bộ phận chính gồm bóng đèn, giá đỡ đèn (thân đèn, đế đèn) và nguồn (dây điện, công tắc, phích cắm).
+                    Màu sắc và kích cỡ: Sản phẩm đèn bàn chống ánh sáng xanh có thể có nhiều màu sắc và kích cỡ khác nhau. Đèn bàn có 3 kích thước gồm Nhỏ - Trung bình - Lớn và 7 màu sắc khác nhau để khách hàng có thể lựa chọn tùy theo sở thích, nhu cầu của bản thân.
+                    Điều khiển và tùy chỉnh: Sản phẩm đèn bàn chống ánh sáng xanh thường được trang bị các tính năng điều khiển và tùy chỉnh, cho phép người dùng điều chỉnh độ sáng, nhiệt độ màu và góc chiếu ánh sáng.
+                </p>
+                <div class="pic_product">
+                    <img src="./img/img_product_02.jpg" alt="">
+                </div>
+            </div>
+            <div class="Content_02">
+               <div class="pic_product">
+                    <img src="./img/img_product_01.jpg" alt="">
+                </div>
+                <p>
+                    Hơn thế nữa, đèn bản có thể tháo ra lắp vào tùy theo nhu cầu và sở thích của mỗi cá nhân . Điều này giúp tạo ra một môi trường chiếu sáng tối ưu nhất cho điều kiện làm việc.
+                    Tiết kiệm năng lượng: Đèn bàn chống ánh sáng xanh thường được thiết kế để tiết kiệm năng lượng. Công nghệ LED tiên tiến và hiệu suất cao giúp giảm tiêu thụ điện năng, giúp người dùng tiết kiệm điện và bảo vệ môi trường.
+                    Tích hợp công nghệ thông minh: Người dùng có thể điều khiển đèn bàn chống ánh sáng xanh bằng các thiết bị di động thông qua các ứng dụng. Người dùng có thể tùy chỉnh ánh sáng, thiết lập các chế độ chiếu sáng, và lên lịch tự động cho việc bật/tắt đèn theo thời gian. Ngoài ra, người dùng cũng có thể điều khiển đèn bàn thông qua giọng nói.
+               </p>
+            </div>
+        </div>
+
+        <div class="footer-basic">
+            <footer>
+                <div class="social">
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-youtube"></i></a>
+                </div>
+            </footer>
+        </div>
+      
+          
+        <div class="thanks">
+            <div class="popup" id="popup">
+                <img src="./img/tick.png">
+                <h2>Cảm ơn bạn đã đặt hàng sản phẩm</h2>
+                <p>Chúng tôi hy vọng bạn <i class="fa-solid fa-heart"></i> nó</p>
+                <button type="button" onclick="closePopup()">OK</button>
+            </div>
+        </div>  
+    </div>
+
+
+    <script src="./js/button.js"></script>
+</body>
+</html>
